@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Loto:400,500,700');
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+  .inner {
+    transform: scale(1.4);
+  }
+
+  .inner2 {
+    transform: scale(1.4);
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #191923;
+  color: #fff;
+  overflow: hidden;
+  position: fixed;
+}
+
+.flex-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fade 2s;
+}
+
+.inner {
+  width: 28vmax;
+  margin: 0 auto;
+}
+
+.inner2 {
+  width: 32vmax;
+  margin: 0 auto;
+}
+
+.inner3 {
+	width: auto;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+.text-center {
+  text-align: center;
+}
+
+.padding {
+  padding: 18vmax 0 7vmax;
+}
+
+.crypto-wrapper {
+  padding: 75px 75px 75px 75px;
+  height: auto;
+  width: auto;
+  line-height: 25px;
+  display: inline-block;
+  font-size: 1vmax;
+}
+
+.hl {
+  font-size: 1.5vmax;
+}
+
+.positive-gain {
+  color: #18F2B2;
+}
+
+.negative-gain {
+  color: #D62839;
+}
+
+.no-gain {
+  color: #FFBA49;
+}
+
+h1 {
+  font-size: 2.5vmax;
+  margin: 0;
+  margin-bottom: 1vmax;
+}
+
+h2 {
+  font-size: 2vmax;
+  margin: 0;
+  margin-bottom: 1vmax;
+  line-height: 2.2vmax;
+}
+
+p {
+  font-size: 1.2vmax;
+}
+
+.defined {
+  color: #C7F8FF;
+}
+
+#work {
+  background-color: #C7F8FF;
+  color: #191923;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6vmax;
+  padding: 0.8vmax 2.4vmax;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hvr-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.icon {
+  text-decoration: none;
+  font-size: 4vmax;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+FFC107
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
