@@ -51,6 +51,24 @@ body {
   margin: 0 auto;
   flex-wrap: nowrap;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #818D92;
+  font-style: italic;
+  opacity: 40%;
+}
+
+.one {
+  font-style: normal;
+}
+
 .text-center {
   text-align: center;
 }
@@ -158,8 +176,8 @@ p {
 }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: #818D92;
+  text-decoration: underline;
 }
 
 a:hover {
